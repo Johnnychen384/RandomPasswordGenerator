@@ -1,5 +1,5 @@
 body{
-    max-width: 100rem;
+    /* max-width: 100rem; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,17 +19,21 @@ h1 {
     line-height: .5rem;
     color: white;
     font-size: 4rem;
+    text-align: center;
 }
 
 h3 {
     line-height: 1rem;
     color: gray;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .wrap-row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -56,9 +60,11 @@ button:hover {
 .listContainer{
     margin-top: 6rem;
     text-align: center;
+    align-items: center;
 }
 
 ul{
     list-style-type: none;
     line-height: 2.5rem;
 }
+
